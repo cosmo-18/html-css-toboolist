@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.intestazione{
+    width: 100%;
+    height: 10%;
+    padding: 10px 0px 0px 20px;
+}
+
+#Toboolist{
+    vertical-align: middle;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    display: inline-block;
+}
+
+.img{
+    vertical-align: middle;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    display: inline-block;
+    padding: 10px;
+}
+
+.container{
+    height: 100%;
+    background-color:  rgb(236, 236, 236);
+    padding: 30px 0px 50px 0px;
+}
+
+.sec-cont{
+    width: 70%;
+    height: 100%;
+    margin: auto;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px 0px 10px 0px;
+
+}
+
+#primo-bottone{
+    background-color: rgb(0, 136, 255);
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    border: solid 1px  rgb(0, 136, 255);;
+    margin-left: 60px;
+}
+
+#secondo-bottone{
+    background-color: white;
+    color: lightgrey;
+    border-radius: 5px;
+    padding: 5px;
+    border: solid 1px  lightgray;
+}
+
+#prima-sezione{
+    width: 100%;
+    height: 100%;
+    padding: 10px 0px;
+    border-bottom: 1px solid lightgrey;
+}
+
+.seconda-sezione{
+    width: 100%;
+    height: 100%;
+    padding: 30px 0px 30px 60px;
+}
+
+.terza-sezione{
+    width: 100%;
+    height: 100%;
+    padding: 0px 30px 30px 60px;
+}
+
+h3::before{
+    content: '\25BE';
+}
+
+.circle{
+    text-align: center;
+    color: green;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid green;
+    display: inline-block;
+}
+
+.true-block{
+    text-align: center;
+    color: green;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid green;
+}
+
+.testo{
+    display: inline-block;
+    margin: 5px;
+}
+
+
+
+.button-txt-prima{
+    font-size: 12px;
+    color: white;
+    background-color: dodgerblue;
+    border: 1px solid dodgerblue;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.button-txt-secondo{
+    font-size: 12px;
+    color: white;
+    background-color: rgb(128, 0, 128);
+    border: 1px solid rgb(128, 0, 128);
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.button-txt-terza{
+    font-size: 12px;
+    color: white;
+    background-color: rgb(5, 167, 18);
+    border: 1px solid rgb(5, 167, 18);
+    border-radius: 20px;
+    padding: 5px;
+}
